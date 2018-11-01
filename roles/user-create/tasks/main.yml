@@ -1,5 +1,5 @@
 ---
-- name: Creating th users.
+- name: Creating the users.
   user:
     name: "{{ sname }}"
     password: "{{ 'ambr0s1a' | password_hash('sha512') }}"
